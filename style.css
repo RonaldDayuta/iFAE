@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to right, #8dd4dd, #6feed9);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.card {
+  border-radius: 1rem;
+  border: none;
+}
+.form-label {
+  font-weight: 600;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+button {
+  font-weight: 600;
+}
