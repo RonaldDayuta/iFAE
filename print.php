@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ^PQ1,0,1,Y
 ^XZ";
 
-    $printerIp = "192.168.127.16";
+    $printerIp = "10.183.142.16";
     $fp = fsockopen($printerIp, 9100, $errno, $errstr, 10);
     if (!$fp) {
         echo json_encode(["status" => "error", "message" => "Printer connection failed."]);
